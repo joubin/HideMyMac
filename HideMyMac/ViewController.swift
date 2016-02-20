@@ -24,9 +24,25 @@ class ViewController: NSViewController {
         }
     }
 
-
+    private lazy var xpcServiceConnection: NSXPCConnection = {
+        let connection = NSXPCConnection(serviceName: "io.jabbari.HideMyMac-XPCService")
+        connection.remoteObjectInterface = NSXPCInterface(withProtocol:XPCServiceProtocol.self)
+        connection.resume()
+        print("asd")
+        return connection
+    }()
+    
     @IBAction func takeText(sender: AnyObject) {
-        self.textLabel.stringValue = self.textField.stringValue;
+//        self.textLabel.stringValue = self.textField.stringValue;
+        let xpcService = self.xpcServiceConnection.remoteObjectProxyWithErrorHandler() { error -> Void in
+            NSLog("XPCService error: %@", error)
+            } as? XPCServiceProtocol
+//        var str:(NSString?)->Void = "A" as Void
+//        xpcService?.capital(self.textField.stringValue, reply:{str:NSString}->{})
+        xpcService?.capital(self.self.textField.stringValue, reply: { (str) -> Void in
+            self.textLabel.stringValue = str as! String
+
+        })
     }
 }
 

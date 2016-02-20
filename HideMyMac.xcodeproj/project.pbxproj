@@ -15,6 +15,7 @@
 		829E75B51C78E83F007003F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B41C78E83F007003F3 /* main.swift */; };
 		829E75B71C78EBCB007003F3 /* XPCServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */; };
 		829E75B91C78EBEC007003F3 /* XPCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B81C78EBEC007003F3 /* XPCService.swift */; };
+		829E75BA1C78F6D4007003F3 /* XPCServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829E75921C78E399007003F3 /* ViewController.swift in Sources */,
+				829E75BA1C78F6D4007003F3 /* XPCServiceProtocol.swift in Sources */,
 				829E75901C78E399007003F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +364,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "HideMyMac-XPCService/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.jabbari.HideMyMac-XPCService";
@@ -377,6 +380,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "HideMyMac-XPCService/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.jabbari.HideMyMac-XPCService";
