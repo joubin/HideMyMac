@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32E5AF4BBEA8505392621B59 /* Pods_HideMyMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FC9F358BE4ED8EFB121A27 /* Pods_HideMyMac.framework */; };
 		829E75901C78E399007003F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E758F1C78E399007003F3 /* AppDelegate.swift */; };
 		829E75921C78E399007003F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75911C78E399007003F3 /* ViewController.swift */; };
 		829E75941C78E399007003F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829E75931C78E399007003F3 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		829E75B71C78EBCB007003F3 /* XPCServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */; };
 		829E75B91C78EBEC007003F3 /* XPCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B81C78EBEC007003F3 /* XPCService.swift */; };
 		829E75BA1C78F6D4007003F3 /* XPCServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */; };
+		829E75BC1C78FF2E007003F3 /* SMJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829E75BB1C78FF2E007003F3 /* SMJobKit.framework */; };
+		F91C44CB3CF6362B76FE1AC1 /* Pods_HideMyMac_XPCService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12ADE8F719B5B70ECD11FF2 /* Pods_HideMyMac_XPCService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4FFABD4BEB88A4247352A0FD /* Pods-HideMyMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideMyMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HideMyMac/Pods-HideMyMac.debug.xcconfig"; sourceTree = "<group>"; };
+		513D644DF5303B4665C407B4 /* Pods-HideMyMac-XPCService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideMyMac-XPCService.release.xcconfig"; path = "Pods/Target Support Files/Pods-HideMyMac-XPCService/Pods-HideMyMac-XPCService.release.xcconfig"; sourceTree = "<group>"; };
+		57FC9F358BE4ED8EFB121A27 /* Pods_HideMyMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideMyMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		829E758C1C78E399007003F3 /* HideMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		829E758F1C78E399007003F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		829E75911C78E399007003F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,10 @@
 		829E75B41C78E83F007003F3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPCServiceProtocol.swift; sourceTree = "<group>"; };
 		829E75B81C78EBEC007003F3 /* XPCService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPCService.swift; sourceTree = "<group>"; };
+		829E75BB1C78FF2E007003F3 /* SMJobKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SMJobKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/HideMyMac-gahppdmpkemgfkchuqbesdyjmpif/Build/Products/Debug/SMJobKit.framework"; sourceTree = "<group>"; };
+		E12ADE8F719B5B70ECD11FF2 /* Pods_HideMyMac_XPCService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideMyMac_XPCService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B9552E5AA83C9E4D316D42 /* Pods-HideMyMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideMyMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-HideMyMac/Pods-HideMyMac.release.xcconfig"; sourceTree = "<group>"; };
+		F9EEAAA61B7C75DC7F456C24 /* Pods-HideMyMac-XPCService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideMyMac-XPCService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HideMyMac-XPCService/Pods-HideMyMac-XPCService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5AF4BBEA8505392621B59 /* Pods_HideMyMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +79,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829E75BC1C78FF2E007003F3 /* SMJobKit.framework in Frameworks */,
+				F91C44CB3CF6362B76FE1AC1 /* Pods_HideMyMac_XPCService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14830B0664D17B5E79DADB8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829E75BB1C78FF2E007003F3 /* SMJobKit.framework */,
+				57FC9F358BE4ED8EFB121A27 /* Pods_HideMyMac.framework */,
+				E12ADE8F719B5B70ECD11FF2 /* Pods_HideMyMac_XPCService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6668F05F1FFEA13BFFB9D75E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FFABD4BEB88A4247352A0FD /* Pods-HideMyMac.debug.xcconfig */,
+				E3B9552E5AA83C9E4D316D42 /* Pods-HideMyMac.release.xcconfig */,
+				F9EEAAA61B7C75DC7F456C24 /* Pods-HideMyMac-XPCService.debug.xcconfig */,
+				513D644DF5303B4665C407B4 /* Pods-HideMyMac-XPCService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		829E75831C78E399007003F3 = {
 			isa = PBXGroup;
 			children = (
 				829E758E1C78E399007003F3 /* HideMyMac */,
 				829E75A31C78E3F7007003F3 /* HideMyMac-XPCService */,
 				829E758D1C78E399007003F3 /* Products */,
+				6668F05F1FFEA13BFFB9D75E /* Pods */,
+				14830B0664D17B5E79DADB8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,10 +158,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 829E759B1C78E399007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac" */;
 			buildPhases = (
+				EA6D2F6EBA6A9C6053EB06E8 /* Check Pods Manifest.lock */,
 				829E75881C78E399007003F3 /* Sources */,
 				829E75891C78E399007003F3 /* Frameworks */,
 				829E758A1C78E399007003F3 /* Resources */,
 				829E75B11C78E3F7007003F3 /* Embed XPC Services */,
+				62A8E053B5AFE8D811806CB6 /* Embed Pods Frameworks */,
+				C109B0C8158788B7D800E3B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 829E75AE1C78E3F7007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac-XPCService" */;
 			buildPhases = (
+				E67F0B366061D4F3EBF2C13F /* Check Pods Manifest.lock */,
 				829E759E1C78E3F7007003F3 /* Sources */,
 				829E759F1C78E3F7007003F3 /* Frameworks */,
 				829E75A01C78E3F7007003F3 /* Resources */,
+				B126CFEC44AF5A350222D6E2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +250,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62A8E053B5AFE8D811806CB6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HideMyMac/Pods-HideMyMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B126CFEC44AF5A350222D6E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HideMyMac-XPCService/Pods-HideMyMac-XPCService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C109B0C8158788B7D800E3B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HideMyMac/Pods-HideMyMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67F0B366061D4F3EBF2C13F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6D2F6EBA6A9C6053EB06E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		829E75881C78E399007003F3 /* Sources */ = {
@@ -335,6 +454,7 @@
 		};
 		829E759C1C78E399007003F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFABD4BEB88A4247352A0FD /* Pods-HideMyMac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -348,6 +468,7 @@
 		};
 		829E759D1C78E399007003F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B9552E5AA83C9E4D316D42 /* Pods-HideMyMac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -361,6 +482,7 @@
 		};
 		829E75AF1C78E3F7007003F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EEAAA61B7C75DC7F456C24 /* Pods-HideMyMac-XPCService.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -377,6 +499,7 @@
 		};
 		829E75B01C78E3F7007003F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513D644DF5303B4665C407B4 /* Pods-HideMyMac-XPCService.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -409,6 +532,7 @@
 				829E759D1C78E399007003F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		829E75AE1C78E3F7007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac-XPCService" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +541,7 @@
 				829E75B01C78E3F7007003F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
