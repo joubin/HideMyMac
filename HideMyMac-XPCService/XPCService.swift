@@ -58,8 +58,7 @@ final class XPCService: NSObject, XPCServiceProtocol {
 //    }
     
     func capital(someString:NSString, reply:(NSString?)->Void){
-        print(someString)
-        reply(someString.capitalizedString);
+        reply(someString.uppercaseString);
     }
     
 }
