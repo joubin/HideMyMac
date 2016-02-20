@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829E75901C78E399007003F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E758F1C78E399007003F3 /* AppDelegate.swift */; };
+		829E75921C78E399007003F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75911C78E399007003F3 /* ViewController.swift */; };
+		829E75941C78E399007003F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829E75931C78E399007003F3 /* Assets.xcassets */; };
+		829E75971C78E399007003F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829E75951C78E399007003F3 /* Main.storyboard */; };
+		829E75AD1C78E3F7007003F3 /* HideMyMac-XPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 829E75A21C78E3F7007003F3 /* HideMyMac-XPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		829E75B51C78E83F007003F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B41C78E83F007003F3 /* main.swift */; };
+		829E75B71C78EBCB007003F3 /* XPCServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */; };
+		829E75B91C78EBEC007003F3 /* XPCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B81C78EBEC007003F3 /* XPCService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		829E75AB1C78E3F7007003F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829E75841C78E399007003F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829E75A11C78E3F7007003F3;
+			remoteInfo = "HideMyMac-XPCService";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		829E75B11C78E3F7007003F3 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				829E75AD1C78E3F7007003F3 /* HideMyMac-XPCService.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		829E758C1C78E399007003F3 /* HideMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829E758F1C78E399007003F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		829E75911C78E399007003F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		829E75931C78E399007003F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		829E75961C78E399007003F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		829E75981C78E399007003F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829E75A21C78E3F7007003F3 /* HideMyMac-XPCService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = "HideMyMac-XPCService.xpc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		829E75AA1C78E3F7007003F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829E75B41C78E83F007003F3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPCServiceProtocol.swift; sourceTree = "<group>"; };
+		829E75B81C78EBEC007003F3 /* XPCService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPCService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829E75891C78E399007003F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829E759F1C78E3F7007003F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829E75831C78E399007003F3 = {
+			isa = PBXGroup;
+			children = (
+				829E758E1C78E399007003F3 /* HideMyMac */,
+				829E75A31C78E3F7007003F3 /* HideMyMac-XPCService */,
+				829E758D1C78E399007003F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		829E758D1C78E399007003F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829E758C1C78E399007003F3 /* HideMyMac.app */,
+				829E75A21C78E3F7007003F3 /* HideMyMac-XPCService.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829E758E1C78E399007003F3 /* HideMyMac */ = {
+			isa = PBXGroup;
+			children = (
+				829E758F1C78E399007003F3 /* AppDelegate.swift */,
+				829E75911C78E399007003F3 /* ViewController.swift */,
+				829E75931C78E399007003F3 /* Assets.xcassets */,
+				829E75951C78E399007003F3 /* Main.storyboard */,
+				829E75981C78E399007003F3 /* Info.plist */,
+			);
+			path = HideMyMac;
+			sourceTree = "<group>";
+		};
+		829E75A31C78E3F7007003F3 /* HideMyMac-XPCService */ = {
+			isa = PBXGroup;
+			children = (
+				829E75AA1C78E3F7007003F3 /* Info.plist */,
+				829E75B41C78E83F007003F3 /* main.swift */,
+				829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */,
+				829E75B81C78EBEC007003F3 /* XPCService.swift */,
+			);
+			path = "HideMyMac-XPCService";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829E758B1C78E399007003F3 /* HideMyMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829E759B1C78E399007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac" */;
+			buildPhases = (
+				829E75881C78E399007003F3 /* Sources */,
+				829E75891C78E399007003F3 /* Frameworks */,
+				829E758A1C78E399007003F3 /* Resources */,
+				829E75B11C78E3F7007003F3 /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				829E75AC1C78E3F7007003F3 /* PBXTargetDependency */,
+			);
+			name = HideMyMac;
+			productName = HideMyMac;
+			productReference = 829E758C1C78E399007003F3 /* HideMyMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		829E75A11C78E3F7007003F3 /* HideMyMac-XPCService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829E75AE1C78E3F7007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac-XPCService" */;
+			buildPhases = (
+				829E759E1C78E3F7007003F3 /* Sources */,
+				829E759F1C78E3F7007003F3 /* Frameworks */,
+				829E75A01C78E3F7007003F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HideMyMac-XPCService";
+			productName = "HideMyMac-XPCService";
+			productReference = 829E75A21C78E3F7007003F3 /* HideMyMac-XPCService.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829E75841C78E399007003F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joubin Jabbari";
+				TargetAttributes = {
+					829E758B1C78E399007003F3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					829E75A11C78E3F7007003F3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 829E75871C78E399007003F3 /* Build configuration list for PBXProject "HideMyMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 829E75831C78E399007003F3;
+			productRefGroup = 829E758D1C78E399007003F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829E758B1C78E399007003F3 /* HideMyMac */,
+				829E75A11C78E3F7007003F3 /* HideMyMac-XPCService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829E758A1C78E399007003F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E75941C78E399007003F3 /* Assets.xcassets in Resources */,
+				829E75971C78E399007003F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829E75A01C78E3F7007003F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829E75881C78E399007003F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E75921C78E399007003F3 /* ViewController.swift in Sources */,
+				829E75901C78E399007003F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829E759E1C78E3F7007003F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E75B51C78E83F007003F3 /* main.swift in Sources */,
+				829E75B71C78EBCB007003F3 /* XPCServiceProtocol.swift in Sources */,
+				829E75B91C78EBEC007003F3 /* XPCService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		829E75AC1C78E3F7007003F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829E75A11C78E3F7007003F3 /* HideMyMac-XPCService */;
+			targetProxy = 829E75AB1C78E3F7007003F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		829E75951C78E399007003F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829E75961C78E399007003F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829E75991C78E399007003F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		829E759A1C78E399007003F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		829E759C1C78E399007003F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HideMyMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jabbari.HideMyMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		829E759D1C78E399007003F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HideMyMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jabbari.HideMyMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		829E75AF1C78E3F7007003F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "HideMyMac-XPCService/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.jabbari.HideMyMac-XPCService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		829E75B01C78E3F7007003F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "HideMyMac-XPCService/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.jabbari.HideMyMac-XPCService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829E75871C78E399007003F3 /* Build configuration list for PBXProject "HideMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829E75991C78E399007003F3 /* Debug */,
+				829E759A1C78E399007003F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829E759B1C78E399007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829E759C1C78E399007003F3 /* Debug */,
+				829E759D1C78E399007003F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		829E75AE1C78E3F7007003F3 /* Build configuration list for PBXNativeTarget "HideMyMac-XPCService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829E75AF1C78E3F7007003F3 /* Debug */,
+				829E75B01C78E3F7007003F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 829E75841C78E399007003F3 /* Project object */;
+}
