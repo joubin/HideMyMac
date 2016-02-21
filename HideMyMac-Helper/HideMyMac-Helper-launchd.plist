@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>io.jabbari.HideMyMac.HideMyMac-Helper tool bundle</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>io.jabbari.HideMyMac.HideMyMac-Helper</string>
+</dict>
+</plist>

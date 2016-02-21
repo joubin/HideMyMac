@@ -11,3 +11,8 @@ target 'HideMyMac-XPCService' do
     pod 'SMJobKit'
 end
 
+
+target 'HideMyMac-Helper' do
+    pod 'SMJobKit'
+end
+

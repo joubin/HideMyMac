@@ -17,15 +17,22 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>5</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016 Joubin Jabbari. All rights reserved.</string>
+	<key>SMPrivilegedExecutables</key>
+	<dict>
+		<key>io.jabbari.HideMyMac.HideMyMac-Helper</key>
+		<string>anchor apple generic and identifier "io.jabbari.HideMyMac.HideMyMac-Helper"</string>
+	</dict>
 	<key>XPCService</key>
 	<dict>
+		<key>JoinExistingSession</key>
+		<true/>
 		<key>ServiceType</key>
 		<string>Application</string>
 	</dict>

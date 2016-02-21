@@ -699,6 +699,16 @@
                                     <action selector="takeText:" target="XfG-lQ-9wD" id="Ffw-JR-mDd"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdX-f3-qsy">
+                                <rect key="frame" x="388" y="13" width="76" height="32"/>
+                                <buttonCell key="cell" type="push" title="install" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="d54-QJ-JGd">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="installHelperButton:" target="XfG-lQ-9wD" id="ZTj-DE-OJ6"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
