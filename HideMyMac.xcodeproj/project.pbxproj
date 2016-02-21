@@ -11,6 +11,8 @@
 		5A3233B8B04C866D5089E4C1 /* Pods_HideMyMac_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009620203A989A3F7A3B0FDF /* Pods_HideMyMac_Helper.framework */; };
 		82383D7E1C7A278600F84093 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CC1C7944F9007003F3 /* HelperClient.swift */; };
 		82383D7F1C7A278900F84093 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CC1C7944F9007003F3 /* HelperClient.swift */; };
+		82383D841C7A57F100F84093 /* SMJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829E75BB1C78FF2E007003F3 /* SMJobKit.framework */; };
+		82383D851C7A57F100F84093 /* SMJobKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829E75BB1C78FF2E007003F3 /* SMJobKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		829E75901C78E399007003F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E758F1C78E399007003F3 /* AppDelegate.swift */; };
 		829E75921C78E399007003F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75911C78E399007003F3 /* ViewController.swift */; };
 		829E75941C78E399007003F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829E75931C78E399007003F3 /* Assets.xcassets */; };
@@ -51,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		82383D861C7A57F100F84093 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82383D851C7A57F100F84093 /* SMJobKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		829E75B11C78E3F7007003F3 /* Embed XPC Services */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32E5AF4BBEA8505392621B59 /* Pods_HideMyMac.framework in Frameworks */,
+				82383D841C7A57F100F84093 /* SMJobKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,7 @@
 				829E75B11C78E3F7007003F3 /* Embed XPC Services */,
 				62A8E053B5AFE8D811806CB6 /* Embed Pods Frameworks */,
 				C109B0C8158788B7D800E3B6 /* Copy Pods Resources */,
+				82383D861C7A57F100F84093 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -549,7 +564,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -593,7 +608,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;

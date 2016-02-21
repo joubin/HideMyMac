@@ -27,7 +27,7 @@
 	<key>SMPrivilegedExecutables</key>
 	<dict>
 		<key>io.jabbari.HideMyMac.HideMyMac-Helper</key>
-		<string>anchor apple generic and identifier "io.jabbari.HideMyMac.HideMyMac-Helper"</string>
+		<string>identifier &quot;io.jabbari.HideMyMac.HideMyMac-Helper&quot;</string>
 	</dict>
 	<key>XPCService</key>
 	<dict>
