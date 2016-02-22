@@ -27,7 +27,7 @@
 	<key>SMPrivilegedExecutables</key>
 	<dict>
 		<key>io.jabbari.HideMyMac.HideMyMac-Helper</key>
-		<string>identifier &quot;io.jabbari.HideMyMac.HideMyMac-Helper&quot;</string>
+		<string>identifier &quot;io.jabbari.HideMyMac.HideMyMac-Helper&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Mac Developer: Ingmar Stein (BM8GZMS29Q)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 	</dict>
 	<key>XPCService</key>
 	<dict>

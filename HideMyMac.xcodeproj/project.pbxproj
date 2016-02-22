@@ -12,7 +12,6 @@
 		82383D7E1C7A278600F84093 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CC1C7944F9007003F3 /* HelperClient.swift */; };
 		82383D7F1C7A278900F84093 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CC1C7944F9007003F3 /* HelperClient.swift */; };
 		82383D841C7A57F100F84093 /* SMJobKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829E75BB1C78FF2E007003F3 /* SMJobKit.framework */; };
-		82383D851C7A57F100F84093 /* SMJobKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829E75BB1C78FF2E007003F3 /* SMJobKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		829E75901C78E399007003F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E758F1C78E399007003F3 /* AppDelegate.swift */; };
 		829E75921C78E399007003F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75911C78E399007003F3 /* ViewController.swift */; };
 		829E75941C78E399007003F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829E75931C78E399007003F3 /* Assets.xcassets */; };
@@ -31,7 +30,7 @@
 		829E75CF1C794585007003F3 /* HelperProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CE1C794585007003F3 /* HelperProtocal.swift */; };
 		829E75D01C7945B1007003F3 /* HelperProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CE1C794585007003F3 /* HelperProtocal.swift */; };
 		829E75D11C7945F2007003F3 /* HelperProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CE1C794585007003F3 /* HelperProtocal.swift */; };
-		82ACDC5A1C795AB000123687 /* HideMyMac-Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829E75C11C790299007003F3 /* HideMyMac-Helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		82ACDC5A1C795AB000123687 /* io.jabbari.HideMyMac.HideMyMac-Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829E75C11C790299007003F3 /* io.jabbari.HideMyMac.HideMyMac-Helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F91C44CB3CF6362B76FE1AC1 /* Pods_HideMyMac_XPCService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12ADE8F719B5B70ECD11FF2 /* Pods_HideMyMac_XPCService.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,17 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		82383D861C7A57F100F84093 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				82383D851C7A57F100F84093 /* SMJobKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		829E75B11C78E3F7007003F3 /* Embed XPC Services */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,7 +78,7 @@
 			dstPath = Contents/Library/LaunchServices;
 			dstSubfolderSpec = 1;
 			files = (
-				82ACDC5A1C795AB000123687 /* HideMyMac-Helper in CopyFiles */,
+				82ACDC5A1C795AB000123687 /* io.jabbari.HideMyMac.HideMyMac-Helper in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +103,7 @@
 		829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPCServiceProtocol.swift; sourceTree = "<group>"; };
 		829E75B81C78EBEC007003F3 /* XPCService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPCService.swift; sourceTree = "<group>"; };
 		829E75BB1C78FF2E007003F3 /* SMJobKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SMJobKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/HideMyMac-gahppdmpkemgfkchuqbesdyjmpif/Build/Products/Debug/SMJobKit.framework"; sourceTree = "<group>"; };
-		829E75C11C790299007003F3 /* HideMyMac-Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HideMyMac-Helper"; sourceTree = BUILT_PRODUCTS_DIR; };
+		829E75C11C790299007003F3 /* io.jabbari.HideMyMac.HideMyMac-Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "io.jabbari.HideMyMac.HideMyMac-Helper"; sourceTree = BUILT_PRODUCTS_DIR; };
 		829E75C31C790299007003F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		829E75C91C7902E0007003F3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		829E75CC1C7944F9007003F3 /* HelperClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClient.swift; sourceTree = "<group>"; };
@@ -200,7 +188,7 @@
 			children = (
 				829E758C1C78E399007003F3 /* HideMyMac.app */,
 				829E75A21C78E3F7007003F3 /* HideMyMac-XPCService.xpc */,
-				829E75C11C790299007003F3 /* HideMyMac-Helper */,
+				829E75C11C790299007003F3 /* io.jabbari.HideMyMac.HideMyMac-Helper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,7 +244,6 @@
 				829E75B11C78E3F7007003F3 /* Embed XPC Services */,
 				62A8E053B5AFE8D811806CB6 /* Embed Pods Frameworks */,
 				C109B0C8158788B7D800E3B6 /* Copy Pods Resources */,
-				82383D861C7A57F100F84093 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,7 +292,7 @@
 			);
 			name = "HideMyMac-Helper";
 			productName = "HideMyMac-Helper";
-			productReference = 829E75C11C790299007003F3 /* HideMyMac-Helper */;
+			productReference = 829E75C11C790299007003F3 /* io.jabbari.HideMyMac.HideMyMac-Helper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -708,7 +695,7 @@
 					"HideMyMac-Helper/HideMyMac-Helper-launchd.plist",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.jabbari.HideMyMac.HideMyMac-Helper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "io.jabbari.HideMyMac.HideMyMac-Helper";
 			};
 			name = Debug;
 		};
@@ -728,7 +715,7 @@
 					"HideMyMac-Helper/HideMyMac-Helper-launchd.plist",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.jabbari.HideMyMac.HideMyMac-Helper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "io.jabbari.HideMyMac.HideMyMac-Helper";
 			};
 			name = Release;
 		};
