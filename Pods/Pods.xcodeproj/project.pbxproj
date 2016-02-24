@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007BB78B038DA88AFF1D20F9A445F3DB /* Pods-HideMyMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B548A4247378F6423AC05A177E5665 /* Pods-HideMyMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09373B6A07A04356179D6BF74A767E0F /* Pods-HideMyMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629EB3D412A67FB79161A90E21A5DB3D /* Pods-HideMyMac-dummy.m */; };
-		09775643332942A56934EF6374A4F4A7 /* ClientUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83762713131ABBF89F4F319367C0E0 /* ClientUtility.swift */; };
-		40CA1E314048236B66228550AD4C64C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
+		0BA028B5F422229B858209E6DCF9477F /* SMJobKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FBF05D40358A7813481703305571E2 /* SMJobKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1ECD045059048193013B191174EBE2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
+		19FC20760DC7411B56AA925F83E1D90F /* Pods-HideMyMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B548A4247378F6423AC05A177E5665 /* Pods-HideMyMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B38FE9B1EA2C70D4E41FFFFA1BD2F5E /* ClientUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83762713131ABBF89F4F319367C0E0 /* ClientUtility.swift */; };
 		5B4F0A14360D5DFC066BF6B1CE8ABECE /* Pods-HideMyMac-Helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9920128E0B4B363653BBD1E4AE048825 /* Pods-HideMyMac-Helper-dummy.m */; };
 		68ACE64FF54E650F6F5E47205CD41D57 /* Pods-HideMyMac-XPCService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F146B8E05DAE2DA7A91AFB802B851A40 /* Pods-HideMyMac-XPCService-dummy.m */; };
 		6B8E0E6026532E912FBE978BEA428D91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
 		6D24D2ED63BDDF43F777BDA31511DA17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
 		6FDB3029462E22CF199D0661A6073EA5 /* Pods-HideMyMac-Helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C62F2A388FCA8C74144DF1C4170E362 /* Pods-HideMyMac-Helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71C3A4C392CFFEFE26AF7A822BDE0F47 /* SMJobKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FBF05D40358A7813481703305571E2 /* SMJobKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75C134AD501369624713780D01FDCD69 /* BridgingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BE741B82C2FA836B124E2C56A1B2E2 /* BridgingHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98EE8D29BB332206530BC62DCB18FA8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
-		AAB34E5B322118DC64079BE74A831D7F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA9C7B54C27F6E51479928A95EB6034 /* Client.swift */; };
+		75642F2BBBAD9F0B5C5A63BC0DA693A3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA9C7B54C27F6E51479928A95EB6034 /* Client.swift */; };
+		974E24C9FC55339A9E87A47583CECA39 /* SMJobKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE59B63624CFCB7582CDB489F1EC06 /* SMJobKit-dummy.m */; };
+		A3E049BE432FCEFEE4546D3DACE9CE7F /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E08C9CF46B7459844A4977233B3159 /* ErrorTypes.swift */; };
+		AEE8103753383F340B915368E47B28D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
+		BF072DB17A4D419234E256658C76C3B5 /* BridgingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BE741B82C2FA836B124E2C56A1B2E2 /* BridgingHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1CBF2A94FB55A0DF4B3A023A8C0C984 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B00707811671F96B54EE8C157EA8B9 /* Security.framework */; };
+		C1E4E623A18FAF6A401BDF0678EC2980 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9C78E6E0890F379CDC953D8827253 /* ServiceManagement.framework */; };
 		D013B96F0A8C3CE4DE5D4C9DCB74DF70 /* Pods-HideMyMac-XPCService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99880FBBF639FF05E7F2B24B552264DF /* Pods-HideMyMac-XPCService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5DC318AD49D30FB2C3404F8EE142FCB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B00707811671F96B54EE8C157EA8B9 /* Security.framework */; };
-		ED361840578E0BBCDAE153BC54A42704 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E08C9CF46B7459844A4977233B3159 /* ErrorTypes.swift */; };
-		F075AD38D0FD5D61421312D2D295536A /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9C78E6E0890F379CDC953D8827253 /* ServiceManagement.framework */; };
-		F0938A6E910EAFBBBDA39EC9C676F2E9 /* SMJobKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE59B63624CFCB7582CDB489F1EC06 /* SMJobKit-dummy.m */; };
+		D66E6D8C657FFA3E80952A387CB57098 /* Pods-HideMyMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629EB3D412A67FB79161A90E21A5DB3D /* Pods-HideMyMac-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B69BC7AD0F6A6FEA568CE32AF8B1F767;
+			remoteGlobalIDString = 5BC00170DA27C5114A87C40F793CA7A1;
+			remoteInfo = SMJobKit;
+		};
+		E44ABEB69FE4E7D49324C7FA18794B1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC00170DA27C5114A87C40F793CA7A1;
 			remoteInfo = SMJobKit;
 		};
 		F01A7E6DAB3D684642EB4B709F31A9DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B69BC7AD0F6A6FEA568CE32AF8B1F767;
+			remoteGlobalIDString = 5BC00170DA27C5114A87C40F793CA7A1;
 			remoteInfo = SMJobKit;
 		};
 /* End PBXContainerItemProxy section */
@@ -96,21 +103,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5779EEF76DB20C003915AA0AD00F2C25 /* Frameworks */ = {
+		5051FF9A7FB72F1AB8CF0FC4F9B2EA26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98EE8D29BB332206530BC62DCB18FA8E /* Cocoa.framework in Frameworks */,
-				E5DC318AD49D30FB2C3404F8EE142FCB /* Security.framework in Frameworks */,
-				F075AD38D0FD5D61421312D2D295536A /* ServiceManagement.framework in Frameworks */,
+				AEE8103753383F340B915368E47B28D6 /* Cocoa.framework in Frameworks */,
+				C1CBF2A94FB55A0DF4B3A023A8C0C984 /* Security.framework in Frameworks */,
+				C1E4E623A18FAF6A401BDF0678EC2980 /* ServiceManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9789DD1DC81E962EE821641A67A6C68D /* Frameworks */ = {
+		A738C920D04D922EB9BD5F88001B83B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40CA1E314048236B66228550AD4C64C8 /* Cocoa.framework in Frameworks */,
+				0C1ECD045059048193013B191174EBE2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,26 +297,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92CFD9CA6CC0CD5BD6C3206D54B21202 /* Headers */ = {
+		86EB6985D2A885672A8B4636AFA2D236 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007BB78B038DA88AFF1D20F9A445F3DB /* Pods-HideMyMac-umbrella.h in Headers */,
+				BF072DB17A4D419234E256658C76C3B5 /* BridgingHeader.h in Headers */,
+				0BA028B5F422229B858209E6DCF9477F /* SMJobKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE61089ABF8594A7DB5F08189455003F /* Headers */ = {
+		C5CC37FFB1B179932DBE2FDAC120A507 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75C134AD501369624713780D01FDCD69 /* BridgingHeader.h in Headers */,
-				71C3A4C392CFFEFE26AF7A822BDE0F47 /* SMJobKit-umbrella.h in Headers */,
+				19FC20760DC7411B56AA925F83E1D90F /* Pods-HideMyMac-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		14276A371B4508606380930753F77C0B /* Pods-HideMyMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DEB8E71563DD8308470AB48823451C /* Build configuration list for PBXNativeTarget "Pods-HideMyMac" */;
+			buildPhases = (
+				FD0EC92C45AB819AFD2ECAF4A5D98057 /* Sources */,
+				A738C920D04D922EB9BD5F88001B83B4 /* Frameworks */,
+				C5CC37FFB1B179932DBE2FDAC120A507 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0358A7EF75A500038327B68665FA5847 /* PBXTargetDependency */,
+			);
+			name = "Pods-HideMyMac";
+			productName = "Pods-HideMyMac";
+			productReference = 6B3BD17A702E8EA8FEF812B09166AA06 /* Pods_HideMyMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3696970DFE8678539D485C11FF835582 /* Pods-HideMyMac-Helper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5D49E9E20EEBE49256DD1355E563B88 /* Build configuration list for PBXNativeTarget "Pods-HideMyMac-Helper" */;
@@ -328,21 +353,21 @@
 			productReference = 33562BD6B8F6187C53758B567799FD25 /* Pods_HideMyMac_Helper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6DA9A6326A70568C23824218FCF6D107 /* Pods-HideMyMac */ = {
+		5BC00170DA27C5114A87C40F793CA7A1 /* SMJobKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F315CF16026B16D3874788EE306E0196 /* Build configuration list for PBXNativeTarget "Pods-HideMyMac" */;
+			buildConfigurationList = 5F2A68DB74627A3F579D43C76F90E7A5 /* Build configuration list for PBXNativeTarget "SMJobKit" */;
 			buildPhases = (
-				A6F1DBAC1D1511E5A61D5DF999D0E30A /* Sources */,
-				9789DD1DC81E962EE821641A67A6C68D /* Frameworks */,
-				92CFD9CA6CC0CD5BD6C3206D54B21202 /* Headers */,
+				469D1D27BCEE05AD36BE5843E9642352 /* Sources */,
+				5051FF9A7FB72F1AB8CF0FC4F9B2EA26 /* Frameworks */,
+				86EB6985D2A885672A8B4636AFA2D236 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-HideMyMac";
-			productName = "Pods-HideMyMac";
-			productReference = 6B3BD17A702E8EA8FEF812B09166AA06 /* Pods_HideMyMac.framework */;
+			name = SMJobKit;
+			productName = SMJobKit;
+			productReference = 4D5DEC1ED4126B6778E512C86CF756D1 /* SMJobKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		837171DC07CB6A6AC19EB5DFD0233A19 /* Pods-HideMyMac-XPCService */ = {
@@ -361,23 +386,6 @@
 			name = "Pods-HideMyMac-XPCService";
 			productName = "Pods-HideMyMac-XPCService";
 			productReference = FB1E9385F53964E936E71983784B7B0C /* Pods_HideMyMac_XPCService.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B69BC7AD0F6A6FEA568CE32AF8B1F767 /* SMJobKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 888310B7D72829201462FB1CAA19D0C4 /* Build configuration list for PBXNativeTarget "SMJobKit" */;
-			buildPhases = (
-				EBEA8DB706FB721FEC862346C5EE1D5F /* Sources */,
-				5779EEF76DB20C003915AA0AD00F2C25 /* Frameworks */,
-				EE61089ABF8594A7DB5F08189455003F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SMJobKit;
-			productName = SMJobKit;
-			productReference = 4D5DEC1ED4126B6778E512C86CF756D1 /* SMJobKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,20 +409,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DA9A6326A70568C23824218FCF6D107 /* Pods-HideMyMac */,
+				14276A371B4508606380930753F77C0B /* Pods-HideMyMac */,
 				3696970DFE8678539D485C11FF835582 /* Pods-HideMyMac-Helper */,
 				837171DC07CB6A6AC19EB5DFD0233A19 /* Pods-HideMyMac-XPCService */,
-				B69BC7AD0F6A6FEA568CE32AF8B1F767 /* SMJobKit */,
+				5BC00170DA27C5114A87C40F793CA7A1 /* SMJobKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6F1DBAC1D1511E5A61D5DF999D0E30A /* Sources */ = {
+		469D1D27BCEE05AD36BE5843E9642352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09373B6A07A04356179D6BF74A767E0F /* Pods-HideMyMac-dummy.m in Sources */,
+				75642F2BBBAD9F0B5C5A63BC0DA693A3 /* Client.swift in Sources */,
+				1B38FE9B1EA2C70D4E41FFFFA1BD2F5E /* ClientUtility.swift in Sources */,
+				A3E049BE432FCEFEE4546D3DACE9CE7F /* ErrorTypes.swift in Sources */,
+				974E24C9FC55339A9E87A47583CECA39 /* SMJobKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,17 +437,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBEA8DB706FB721FEC862346C5EE1D5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAB34E5B322118DC64079BE74A831D7F /* Client.swift in Sources */,
-				09775643332942A56934EF6374A4F4A7 /* ClientUtility.swift in Sources */,
-				ED361840578E0BBCDAE153BC54A42704 /* ErrorTypes.swift in Sources */,
-				F0938A6E910EAFBBBDA39EC9C676F2E9 /* SMJobKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F86322E4A7E8B0944565EA66E8A4288A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,19 +445,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD0EC92C45AB819AFD2ECAF4A5D98057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66E6D8C657FFA3E80952A387CB57098 /* Pods-HideMyMac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0358A7EF75A500038327B68665FA5847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMJobKit;
+			target = 5BC00170DA27C5114A87C40F793CA7A1 /* SMJobKit */;
+			targetProxy = E44ABEB69FE4E7D49324C7FA18794B1E /* PBXContainerItemProxy */;
+		};
 		11799A1CB43B1F059C40F77D5B25F186 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SMJobKit;
-			target = B69BC7AD0F6A6FEA568CE32AF8B1F767 /* SMJobKit */;
+			target = 5BC00170DA27C5114A87C40F793CA7A1 /* SMJobKit */;
 			targetProxy = F01A7E6DAB3D684642EB4B709F31A9DE /* PBXContainerItemProxy */;
 		};
 		9248D2F04EB3970662EB5EEECF479C72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SMJobKit;
-			target = B69BC7AD0F6A6FEA568CE32AF8B1F767 /* SMJobKit */;
+			target = 5BC00170DA27C5114A87C40F793CA7A1 /* SMJobKit */;
 			targetProxy = D949AA8F3017783C7D59AF2C1EB6A6E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -497,7 +511,7 @@
 			};
 			name = Release;
 		};
-		269E275A6B35A90FC667C479F0DF3A58 /* Release */ = {
+		36AEF14C80BD7A6736CAE47CCD7A1B7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 252F8029D623D7CD866B48687A298620 /* Pods-HideMyMac.release.xcconfig */;
 			buildSettings = {
@@ -530,6 +544,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		41CBA576CC350FB2F2F633BACA53AC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F9796CF718A1EAC6D53B53D8C75449 /* Pods-HideMyMac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HideMyMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-HideMyMac/Pods-HideMyMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HideMyMac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4907EAB0868E73CCC72FCDDB6921349C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -567,37 +616,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		676D17E1CB36B47C70EC76B3BEBE3C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CF121AAA2D25C3A0922D8287F178C2E /* SMJobKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SMJobKit/SMJobKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMJobKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SMJobKit/SMJobKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SMJobKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		69C012360A4D0A1DA8FA7EB6E8924B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -675,41 +693,7 @@
 			};
 			name = Debug;
 		};
-		B02B345D16D3A81E61AA4D8BB43D24FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2F9796CF718A1EAC6D53B53D8C75449 /* Pods-HideMyMac.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HideMyMac/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-HideMyMac/Pods-HideMyMac.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HideMyMac;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C8F6EF5B4EE5AA7524F6D20E35CEBD75 /* Release */ = {
+		C095731174E3AE59AC3706472F2090FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CF121AAA2D25C3A0922D8287F178C2E /* SMJobKit.xcconfig */;
 			buildSettings = {
@@ -738,6 +722,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D62EE73A170FAC4010511EB0448A4641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF121AAA2D25C3A0922D8287F178C2E /* SMJobKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMJobKit/SMJobKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMJobKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SMJobKit/SMJobKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SMJobKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		EF4B802DE314E9316EE0E856CD992AAF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -820,11 +835,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		888310B7D72829201462FB1CAA19D0C4 /* Build configuration list for PBXNativeTarget "SMJobKit" */ = {
+		5F2A68DB74627A3F579D43C76F90E7A5 /* Build configuration list for PBXNativeTarget "SMJobKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				676D17E1CB36B47C70EC76B3BEBE3C4B /* Debug */,
-				C8F6EF5B4EE5AA7524F6D20E35CEBD75 /* Release */,
+				D62EE73A170FAC4010511EB0448A4641 /* Debug */,
+				C095731174E3AE59AC3706472F2090FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -847,11 +862,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F315CF16026B16D3874788EE306E0196 /* Build configuration list for PBXNativeTarget "Pods-HideMyMac" */ = {
+		B6DEB8E71563DD8308470AB48823451C /* Build configuration list for PBXNativeTarget "Pods-HideMyMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B02B345D16D3A81E61AA4D8BB43D24FD /* Debug */,
-				269E275A6B35A90FC667C479F0DF3A58 /* Release */,
+				41CBA576CC350FB2F2F633BACA53AC88 /* Debug */,
+				36AEF14C80BD7A6736CAE47CCD7A1B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

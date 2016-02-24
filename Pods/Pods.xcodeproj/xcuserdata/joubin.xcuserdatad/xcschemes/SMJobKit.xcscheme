@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B69BC7AD0F6A6FEA568CE32AF8B1F767'
+               BlueprintIdentifier = '5BC00170DA27C5114A87C40F793CA7A1'
                BlueprintName = 'SMJobKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SMJobKit.framework'>

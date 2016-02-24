@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6B0F529662DB02A3266D4D779CE2699627C9DD8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6B0F529662DB02A3266D4D779CE2699627C9DD8C" : 0,
+    "AF87436C1DF18670A893ACFF8E66F2C0FBCB7242" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BC5783FA-26D8-4956-ADAC-BB9361A48F24",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6B0F529662DB02A3266D4D779CE2699627C9DD8C" : "HideMyMac\/",
+    "AF87436C1DF18670A893ACFF8E66F2C0FBCB7242" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HideMyMac",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HideMyMac.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joubin\/HideMyMac.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6B0F529662DB02A3266D4D779CE2699627C9DD8C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joubin\/MSBigDataHackathon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF87436C1DF18670A893ACFF8E66F2C0FBCB7242"
+    }
+  ]
+}

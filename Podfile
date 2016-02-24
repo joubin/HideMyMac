@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'HideMyMac' do
 
+    pod 'SMJobKit'
 end
 
 target 'HideMyMac-XPCService' do

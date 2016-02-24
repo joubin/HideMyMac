@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14276A371B4508606380930753F77C0B"
-               BuildableName = "Pods_HideMyMac.framework"
-               BlueprintName = "Pods-HideMyMac"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "827AFDE21C7D12350052D15A"
+               BuildableName = "HideMyServcice-XPCService2.xpc"
+               BlueprintName = "HideMyServcice-XPCService2"
+               ReferencedContainer = "container:HideMyMac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14276A371B4508606380930753F77C0B"
-            BuildableName = "Pods_HideMyMac.framework"
-            BlueprintName = "Pods-HideMyMac"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "827AFDE21C7D12350052D15A"
+            BuildableName = "HideMyServcice-XPCService2.xpc"
+            BlueprintName = "HideMyServcice-XPCService2"
+            ReferencedContainer = "container:HideMyMac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "827AFDE21C7D12350052D15A"
+            BuildableName = "HideMyServcice-XPCService2.xpc"
+            BlueprintName = "HideMyServcice-XPCService2"
+            ReferencedContainer = "container:HideMyMac.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
