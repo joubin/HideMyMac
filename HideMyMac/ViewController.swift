@@ -28,7 +28,7 @@ class ViewController: NSViewController {
     }
 
     private lazy var xpcServiceConnection: NSXPCConnection = {
-        let connection = NSXPCConnection(serviceName: "io.jabbari.HideMyMac-XPCService")
+        let connection = NSXPCConnection(serviceName: "io.jabbari.HideMyMac.HideMyMac-XPCService")
         connection.remoteObjectInterface = NSXPCInterface(withProtocol:XPCServiceProtocol.self)
         connection.resume()
         return connection

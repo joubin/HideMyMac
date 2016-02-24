@@ -9,12 +9,12 @@
 	<key>CFBundleName</key>
 	<string>HideMyMac-Helper</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6</string>
+	<string>6.8.1</string>
 	<key>CFBundleVersion</key>
-	<string>6</string>
+	<string>6.8.1</string>
 	<key>SMAuthorizedClients</key>
 	<array>
-		<string>identifier &quot;io.jabbari.HideMyMac-XPCService&quot; </string>
+		<string>identifier &quot;io.jabbari.HideMyMac.HideMyMac-XPCService&quot; </string>
 	</array>
 </dict>
 </plist>
