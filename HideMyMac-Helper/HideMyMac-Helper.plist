@@ -9,9 +9,9 @@
 	<key>CFBundleName</key>
 	<string>HideMyMac-Helper</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.8.1</string>
+	<string>6.8.3</string>
 	<key>CFBundleVersion</key>
-	<string>6.8.1</string>
+	<string>6.8.3</string>
 	<key>SMAuthorizedClients</key>
 	<array>
 		<string>identifier &quot;io.jabbari.HideMyMac.HideMyMac-XPCService&quot; </string>
