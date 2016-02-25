@@ -10,15 +10,15 @@
 		0BA028B5F422229B858209E6DCF9477F /* SMJobKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FBF05D40358A7813481703305571E2 /* SMJobKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C1ECD045059048193013B191174EBE2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
 		19FC20760DC7411B56AA925F83E1D90F /* Pods-HideMyMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B548A4247378F6423AC05A177E5665 /* Pods-HideMyMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B38FE9B1EA2C70D4E41FFFFA1BD2F5E /* ClientUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83762713131ABBF89F4F319367C0E0 /* ClientUtility.swift */; };
+		30B79990F7FBE322E9A286822BD624BE /* ClientUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83762713131ABBF89F4F319367C0E0 /* ClientUtility.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5A787FFC74E18A273A395F96F2D6DD95 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA9C7B54C27F6E51479928A95EB6034 /* Client.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5B4F0A14360D5DFC066BF6B1CE8ABECE /* Pods-HideMyMac-Helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9920128E0B4B363653BBD1E4AE048825 /* Pods-HideMyMac-Helper-dummy.m */; };
 		68ACE64FF54E650F6F5E47205CD41D57 /* Pods-HideMyMac-XPCService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F146B8E05DAE2DA7A91AFB802B851A40 /* Pods-HideMyMac-XPCService-dummy.m */; };
 		6B8E0E6026532E912FBE978BEA428D91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
 		6D24D2ED63BDDF43F777BDA31511DA17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
 		6FDB3029462E22CF199D0661A6073EA5 /* Pods-HideMyMac-Helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C62F2A388FCA8C74144DF1C4170E362 /* Pods-HideMyMac-Helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75642F2BBBAD9F0B5C5A63BC0DA693A3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA9C7B54C27F6E51479928A95EB6034 /* Client.swift */; };
-		974E24C9FC55339A9E87A47583CECA39 /* SMJobKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE59B63624CFCB7582CDB489F1EC06 /* SMJobKit-dummy.m */; };
-		A3E049BE432FCEFEE4546D3DACE9CE7F /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E08C9CF46B7459844A4977233B3159 /* ErrorTypes.swift */; };
+		8DEFC6D1449E5CBED12296427BA65A9C /* SMJobKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE59B63624CFCB7582CDB489F1EC06 /* SMJobKit-dummy.m */; };
+		94B41B1E2EB8E15AB23D0664805FFF66 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E08C9CF46B7459844A4977233B3159 /* ErrorTypes.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AEE8103753383F340B915368E47B28D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5518B767C4D5F752121750B29814B63 /* Cocoa.framework */; };
 		BF072DB17A4D419234E256658C76C3B5 /* BridgingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BE741B82C2FA836B124E2C56A1B2E2 /* BridgingHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1CBF2A94FB55A0DF4B3A023A8C0C984 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B00707811671F96B54EE8C157EA8B9 /* Security.framework */; };
@@ -357,7 +357,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F2A68DB74627A3F579D43C76F90E7A5 /* Build configuration list for PBXNativeTarget "SMJobKit" */;
 			buildPhases = (
-				469D1D27BCEE05AD36BE5843E9642352 /* Sources */,
+				F4A590E1345935AC2C0CC6A1346B26EE /* Sources */,
 				5051FF9A7FB72F1AB8CF0FC4F9B2EA26 /* Frameworks */,
 				86EB6985D2A885672A8B4636AFA2D236 /* Headers */,
 			);
@@ -418,22 +418,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		469D1D27BCEE05AD36BE5843E9642352 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75642F2BBBAD9F0B5C5A63BC0DA693A3 /* Client.swift in Sources */,
-				1B38FE9B1EA2C70D4E41FFFFA1BD2F5E /* ClientUtility.swift in Sources */,
-				A3E049BE432FCEFEE4546D3DACE9CE7F /* ErrorTypes.swift in Sources */,
-				974E24C9FC55339A9E87A47583CECA39 /* SMJobKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1F695EFBDE67CD9C698808A9597E2EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B4F0A14360D5DFC066BF6B1CE8ABECE /* Pods-HideMyMac-Helper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A590E1345935AC2C0CC6A1346B26EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A787FFC74E18A273A395F96F2D6DD95 /* Client.swift in Sources */,
+				30B79990F7FBE322E9A286822BD624BE /* ClientUtility.swift in Sources */,
+				94B41B1E2EB8E15AB23D0664805FFF66 /* ErrorTypes.swift in Sources */,
+				8DEFC6D1449E5CBED12296427BA65A9C /* SMJobKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
