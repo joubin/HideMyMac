@@ -346,7 +346,7 @@
 						DevelopmentTeam = 9V3E82SCH9;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -355,7 +355,7 @@
 						DevelopmentTeam = 9V3E82SCH9;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -661,7 +661,6 @@
 			baseConfigurationReference = 4FFABD4BEB88A4247352A0FD /* Pods-HideMyMac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = HideMyMac/HideMyMac.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
@@ -679,7 +678,6 @@
 			baseConfigurationReference = E3B9552E5AA83C9E4D316D42 /* Pods-HideMyMac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = HideMyMac/HideMyMac.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
@@ -697,7 +695,6 @@
 			baseConfigurationReference = F9EEAAA61B7C75DC7F456C24 /* Pods-HideMyMac-XPCService.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "HideMyMac-XPCService/HideMyMac-XPCService.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
@@ -718,7 +715,6 @@
 			baseConfigurationReference = 513D644DF5303B4665C407B4 /* Pods-HideMyMac-XPCService.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "HideMyMac-XPCService/HideMyMac-XPCService.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
@@ -736,7 +732,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9369B6AE214DC4A279D3A6A /* Pods-HideMyMac-Helper.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = "HideMyMac-Helper/HideMyMac-Helper.plist";
@@ -761,7 +757,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A306CA144C256860B3BA82A /* Pods-HideMyMac-Helper.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
