@@ -16,10 +16,10 @@ final class XPCService: NSObject, XPCServiceProtocol {
     private var helperToolConnection: NSXPCConnection?
     
  
-    
-    func bundledHelperVersion(reply:(String) -> Void) {
-        reply(HideMyMacHelperClient.bundledVersion!)
-    }
+//    
+//    func bundledHelperVersion(reply:(String) -> Void) {
+//        reply(HideMyMacHelperClient.bundledVersion!)
+//    }
 
     func installHelperTool(reply:(NSError?) -> Void) {
         do {

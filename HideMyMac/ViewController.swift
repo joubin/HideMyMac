@@ -54,14 +54,17 @@ class ViewController: NSViewController {
 //
 //        }
 //        return
-        self.installHelper { (result) -> Void in
-            NSLog("The result of running the installer %@", result);
-        }
+//        self.installHelper { (result) -> Void in
+//            print("The result of running the installer %@", result);
+//        }
+        
+        self.checkAndRunHelper()
     }
+    
     
     private func checkAndRunHelper() {
         let xpcService = self.xpcServiceConnection.remoteObjectProxyWithErrorHandler() { error -> Void in
-            NSLog("XPCService error: %@", error)
+            print("XPCService error: %@", error)
             } as? XPCServiceProtocol
         
         if let xpcService = xpcService {
@@ -70,11 +73,9 @@ class ViewController: NSViewController {
                     var performInstallation = false
                     let connection = NSXPCConnection(listenerEndpoint: endpoint)
                     let interface = NSXPCInterface(withProtocol:HelperProtocol.self)
-
-                    interface.setInterface(NSXPCInterface(withProtocol: HelperProtocol.self), forSelector: "processRequest:bool:", argumentIndex: 1, ofReply: false)
                     connection.remoteObjectInterface = interface
                     connection.invalidationHandler = {
-                        NSLog("XPC connection to helper invalidated.")
+                        print("XPC connection to helper invalidated.")
                         self.helperConnection = nil
                         if performInstallation {
                             self.installHelper() { success in
@@ -92,37 +93,37 @@ class ViewController: NSViewController {
                             NSLog("Error connecting to helper: %@", error)
                             } as! HelperProtocol
                         
-                        helper.getVersionWithReply() { installedVersion in
-                            xpcService.bundledHelperVersion() { bundledVersion in
-                                if installedVersion == bundledVersion {
-                                    // helper is current
-                                    dispatch_async(dispatch_get_main_queue()) {
-                                        self.runHelper()
-                                    }
-                                } else {
-                                    // helper is different version
-                                    performInstallation = true
-                                    helper.uninstall()
-                                    helper.exitWithCode(Int(EXIT_SUCCESS))
-                                    connection.invalidate()
-                                }
-                            }
-                        }
+//                        helper.getVersionWithReply() { installedVersion in
+//                            xpcService.bundledHelperVersion() { bundledVersion in
+//                                if installedVersion == bundledVersion {
+//                                    // helper is current
+//                                    dispatch_async(dispatch_get_main_queue()) {
+//                                        self.runHelper()
+//                                    }
+//                                } else {
+//                                    // helper is different version
+//                                    performInstallation = true
+//                                    helper.uninstall()
+//                                    helper.exitWithCode(Int(EXIT_SUCCESS))
+//                                    connection.invalidate()
+//                                }
+//                            }
+//                        }
                     }
                 } else {
-                    NSLog("Failed to get XPC endpoint.")
+                    print("Failed to get XPC endpoint.")
                     self.installHelper() { success in
                         if success {
                             self.checkAndRunHelper()
                         }else{
-                            NSLog("failed");
+                            print("what is happening")
                         }
                     }
                 }
             }
         }
     }
-
+    
     
     func installHelper(reply:(Bool) -> Void) {
         let xpcService = self.xpcServiceConnection.remoteObjectProxyWithErrorHandler() { error -> Void in
@@ -138,16 +139,21 @@ class ViewController: NSViewController {
                         alert.messageText = error.localizedDescription
                         alert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)
                     }
+                    print(false)
                     reply(false)
                 } else {
                     reply(true)
+                    print(!false)
                 }
             }
+        }else{
+            print("nothing")
         }
     }
     
+    
     private func runHelper() {
-//        NSProcessInfo.processInfo().disableSuddenTermination()
+        NSProcessInfo.processInfo().disableSuddenTermination()
         
         let progress = NSProgress(totalUnitCount: -1)
         progress.becomeCurrentWithPendingUnitCount(-1)
@@ -160,34 +166,13 @@ class ViewController: NSViewController {
             NSLog("Error communicating with helper: %@", error)
             dispatch_async(dispatch_get_main_queue()) {
 //                self.finishProcessing()
-                // alert changed here
+                print("finished processing")
             }
             } as! HelperProtocol
-//        helper.processRequest { (result) -> Void in
-//            NSLog("results: %s ", result);
-//        }
+        
         helper.processRequest()
-//        helper.processRequest(arguments, progress:self) { exitCode in
-//            NSLog("helper finished with exit code: \(exitCode)")
-//            helper.exitWithCode(exitCode)
-//            if exitCode == Int(EXIT_SUCCESS) {
-//                dispatch_async(dispatch_get_main_queue()) {
-//                    self.finishProcessing()
-//                }
-//            }
-//        }
         
-//        progress.resignCurrent()
-//        self.progress = progress
-        
-//        if self.progressViewController == nil {
-//            let storyboard = NSStoryboard(name:"Main", bundle:nil)
-//            self.progressViewController = storyboard.instantiateControllerWithIdentifier("ProgressViewController") as? ProgressViewController
-//        }
-//        self.progressViewController?.delegate = self
-//        if self.progressViewController!.presentingViewController == nil {
-//            self.presentViewControllerAsSheet(self.progressViewController!)
-//        }
+    
         
         let notification = NSUserNotification()
         notification.title = NSLocalizedString("Monolingual started", comment:"")
@@ -195,6 +180,10 @@ class ViewController: NSViewController {
         
         NSUserNotificationCenter.defaultUserNotificationCenter().deliverNotification(notification)
     }
+    
 
+    
+    
+   
 }
 

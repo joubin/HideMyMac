@@ -10,7 +10,8 @@ import Foundation
 import SMJobKit
 
 final class HideMyMacHelperClient : Client {
+    static var ident = "io.jabbari.HideMyMac.HideMyMac-Helper"
     override class var serviceIdentifier: String {
-        return "io.jabbari.HideMyMac.HideMyMac-Helper"
+        return ident
     }
 }

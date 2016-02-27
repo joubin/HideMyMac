@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import XPC
 
 @objc protocol XPCServiceProtocol {
-    func bundledHelperVersion(reply:(String) -> Void)
+//    func bundledHelperVersion(reply:(String) -> Void)
     func installHelperTool(withReply:(NSError?) -> Void)
     func connect(withReply:(NSXPCListenerEndpoint?) -> Void)
     func capital(string:NSString, reply:(NSString?)->Void)
