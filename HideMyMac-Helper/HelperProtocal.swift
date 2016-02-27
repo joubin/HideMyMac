@@ -12,10 +12,10 @@ import Foundation
     init()
     
     func connectWithEndpointReply(reply:(NSXPCListenerEndpoint) -> Void)
-//    func getVersionWithReply(reply:(String) -> Void)
+    func getVersionWithReply(reply:(String) -> Void)
     func uninstall()
     func exitWithCode(exitCode: Int)
-    func processRequest(reply:(Bool) -> Void)
+//    func processRequest(reply:(Bool) -> Void)
     func processRequest()
     
 }

@@ -62,9 +62,10 @@ class ViewController: NSViewController {
     }
     
     
+
     private func checkAndRunHelper() {
         let xpcService = self.xpcServiceConnection.remoteObjectProxyWithErrorHandler() { error -> Void in
-            print("XPCService error: %@", error)
+            NSLog("XPCService error: %@", error)
             } as? XPCServiceProtocol
         
         if let xpcService = xpcService {
@@ -73,9 +74,10 @@ class ViewController: NSViewController {
                     var performInstallation = false
                     let connection = NSXPCConnection(listenerEndpoint: endpoint)
                     let interface = NSXPCInterface(withProtocol:HelperProtocol.self)
+//                    interface.setInterface(NSXPCInterface(withProtocol: ProgressProtocol.self), forSelector: "processRequest:progress:reply:", argumentIndex: 1, ofReply: false)
                     connection.remoteObjectInterface = interface
                     connection.invalidationHandler = {
-                        print("XPC connection to helper invalidated.")
+                        NSLog("XPC connection to helper invalidated.")
                         self.helperConnection = nil
                         if performInstallation {
                             self.installHelper() { success in
@@ -93,30 +95,28 @@ class ViewController: NSViewController {
                             NSLog("Error connecting to helper: %@", error)
                             } as! HelperProtocol
                         
-//                        helper.getVersionWithReply() { installedVersion in
-//                            xpcService.bundledHelperVersion() { bundledVersion in
-//                                if installedVersion == bundledVersion {
-//                                    // helper is current
-//                                    dispatch_async(dispatch_get_main_queue()) {
-//                                        self.runHelper()
-//                                    }
-//                                } else {
-//                                    // helper is different version
-//                                    performInstallation = true
-//                                    helper.uninstall()
-//                                    helper.exitWithCode(Int(EXIT_SUCCESS))
-//                                    connection.invalidate()
-//                                }
-//                            }
-//                        }
+                        helper.getVersionWithReply() { installedVersion in
+                            xpcService.bundledHelperVersion() { bundledVersion in
+                                if installedVersion == bundledVersion {
+                                    // helper is current
+                                    dispatch_async(dispatch_get_main_queue()) {
+                                        self.runHelper()
+                                    }
+                                } else {
+                                    // helper is different version
+                                    performInstallation = true
+                                    helper.uninstall()
+                                    helper.exitWithCode(Int(EXIT_SUCCESS))
+                                    connection.invalidate()
+                                }
+                            }
+                        }
                     }
                 } else {
-                    print("Failed to get XPC endpoint.")
+                    NSLog("Failed to get XPC endpoint.")
                     self.installHelper() { success in
                         if success {
                             self.checkAndRunHelper()
-                        }else{
-                            print("what is happening")
                         }
                     }
                 }

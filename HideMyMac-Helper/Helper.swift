@@ -57,9 +57,13 @@ final class Helper : NSObject, NSXPCListenerDelegate {
         reply(listener.endpoint)
     }
     
-//    func getVersionWithReply(reply:(String) -> Void) {
-//        reply(version)
-//    }
+    var version: String {
+        return NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleVersion") as! String
+    }
+    
+    func getVersionWithReply(reply:(String) -> Void) {
+        reply(version)
+    }
     
     // see https://devforums.apple.com/message/1004420#1004420
     func uninstall() {
