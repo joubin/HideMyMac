@@ -21,7 +21,6 @@
 		829E75BA1C78F6D4007003F3 /* XPCServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75B61C78EBCB007003F3 /* XPCServiceProtocol.swift */; };
 		829E75C41C790299007003F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75C31C790299007003F3 /* main.swift */; };
 		829E75CA1C7902E0007003F3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75C91C7902E0007003F3 /* Helper.swift */; };
-		829E75CB1C79423A007003F3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75C91C7902E0007003F3 /* Helper.swift */; };
 		829E75CD1C7944F9007003F3 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CC1C7944F9007003F3 /* HelperClient.swift */; };
 		829E75CF1C794585007003F3 /* HelperProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CE1C794585007003F3 /* HelperProtocal.swift */; };
 		829E75D01C7945B1007003F3 /* HelperProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E75CE1C794585007003F3 /* HelperProtocal.swift */; };
@@ -346,7 +345,7 @@
 						DevelopmentTeam = 9V3E82SCH9;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -532,7 +531,6 @@
 				829E75B51C78E83F007003F3 /* main.swift in Sources */,
 				829E75B71C78EBCB007003F3 /* XPCServiceProtocol.swift in Sources */,
 				829E75B91C78EBEC007003F3 /* XPCService.swift in Sources */,
-				829E75CB1C79423A007003F3 /* Helper.swift in Sources */,
 				829E75CD1C7944F9007003F3 /* HelperClient.swift in Sources */,
 				829E75D01C7945B1007003F3 /* HelperProtocal.swift in Sources */,
 			);
@@ -661,6 +659,7 @@
 			baseConfigurationReference = 4FFABD4BEB88A4247352A0FD /* Pods-HideMyMac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideMyMac/HideMyMac.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
@@ -678,6 +677,7 @@
 			baseConfigurationReference = E3B9552E5AA83C9E4D316D42 /* Pods-HideMyMac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideMyMac/HideMyMac.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";

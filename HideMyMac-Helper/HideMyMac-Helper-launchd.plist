@@ -8,7 +8,7 @@
 	<true/>
 	<key>MachServices</key>
 	<dict>
-		<key>io.jabbari.HideMyMac.HideMyMac-Helper tool bundle</key>
+		<key>io.jabbari.HideMyMac.HideMyMac-Helper</key>
 		<true/>
 	</dict>
 	<key>Label</key>

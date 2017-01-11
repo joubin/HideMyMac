@@ -10,6 +10,7 @@
 import Foundation
 import MachO.fat
 import MachO.loader
+import XPC
 
 extension NSURL {
     func hasExtendedAttribute(attribute: String) -> Bool {
@@ -32,7 +33,7 @@ final class Helper : NSObject, NSXPCListenerDelegate {
     
     override init() {
         listener = NSXPCListener(machServiceName: HideMyMacHelperClient.ident)
-        
+        print("made")
         super.init()
         
         listener.delegate = self
@@ -82,7 +83,7 @@ final class Helper : NSObject, NSXPCListenerDelegate {
     
     func processRequest(reply:(Bool) -> Void) {
         timer?.invalidate()
-        
+        print("got here")
            workerQueue.addOperationWithBlock {
                 // do the work here
             reply(true)

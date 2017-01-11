@@ -77,7 +77,7 @@ class ViewController: NSViewController {
 //                    interface.setInterface(NSXPCInterface(withProtocol: ProgressProtocol.self), forSelector: "processRequest:progress:reply:", argumentIndex: 1, ofReply: false)
                     connection.remoteObjectInterface = interface
                     connection.invalidationHandler = {
-                        NSLog("XPC connection to helper invalidated.")
+                        print("XPC connection to helper invalidated.")
                         self.helperConnection = nil
                         if performInstallation {
                             self.installHelper() { success in

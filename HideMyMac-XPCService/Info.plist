@@ -17,13 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.8.9</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>6.8.9</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 Joubin Jabbari. All rights reserved.</string>
+	<string>1</string>
 	<key>SMPrivilegedExecutables</key>
 	<dict>
 		<key>io.jabbari.HideMyMac.HideMyMac-Helper</key>

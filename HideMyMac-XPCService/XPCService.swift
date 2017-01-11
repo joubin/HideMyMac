@@ -44,7 +44,7 @@ final class XPCService: NSObject, XPCServiceProtocol {
     
     func connect(reply:(NSXPCListenerEndpoint?) -> Void) {
         if helperToolConnection == nil {
-            let connection = NSXPCConnection(machServiceName: "io.jabbari.HideMyMac.HideMyMac-Helper", options: .Privileged)
+            let connection = NSXPCConnection(machServiceName: HideMyMacHelperClient.ident, options: .Privileged)
             connection.remoteObjectInterface = NSXPCInterface(withProtocol:HelperProtocol.self)
             connection.invalidationHandler = {
                 self.helperToolConnection = nil
@@ -58,6 +58,7 @@ final class XPCService: NSObject, XPCServiceProtocol {
             reply(nil)
             } as! HelperProtocol
         helper.connectWithEndpointReply() { endpoint -> Void in
+            print("asd")
             reply(endpoint)
         }
     }
